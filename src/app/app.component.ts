@@ -5,6 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+
+// Clase creada por defecto
+/*export class AppComponent {
   title = 'bases';
+}*/
+
+// Agregamos unas modificaciones para hacerlo mas entendible
+export class AppComponent {
+
+  public title: string = 'Hola Mundo';
+
 }
